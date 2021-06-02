@@ -19,7 +19,7 @@ function mouseDragged(){
   }
 }
 _("#reset-canvas").addEventListener("click", function(){
-  background(255);
+  background(255,255,255);
 });
 _("#save-canvas").addEventListener("click",function(){
   saveCanvas(canvas, "sketch", "png");
